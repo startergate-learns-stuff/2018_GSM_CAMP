@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WEB</title>
+    <style>
+      #grid{
+        border: 10px solid pink;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+      }
+      #grid>*{
+        border: 5px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>LEFT</div>
+      <div>CENTER</div>
+      <div>RIGHT</div>
+    </div>
+  </body>
+</html>
