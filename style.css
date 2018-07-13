@@ -21,7 +21,7 @@ a{
     padding: 50px;
     margin: 0px;
   }
-  ul{
+  .ulCover{
     border-right: pink 10px solid;
     margin: 0px;
   }
