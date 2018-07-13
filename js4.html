@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS - WEB</title>
+  </head>
+  <body>
+    <h1>웹브라우저 제어</h1>
+    <div id="target"></div>
+    <button onclick="var target = document.querySelector('#target');target.innerHTML = 'Hello, World!';target.style.color = 'red';">dfsdfs</button>
+    <script>
+
+      var buttonTarget = document.getElementById('btnTarget');
+      buttonTarget.addEventListener('click', function(event) {
+        var target = document.querySelector('#target');
+        target.innerHTML = 'Hello, World!';
+        target.style.color = 'red';
+      })
+    </script>
+  </body>
+</html>
