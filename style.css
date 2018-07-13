@@ -1,0 +1,34 @@
+body{
+  background-color:rgb(62,65,78);
+  color:white;
+    margin:0px;
+}
+*{
+  font-family: "Noto Sans KR";
+}
+
+a{
+  color:white;
+  text-decoration:none;
+}
+#active{
+  color: blue;
+}
+.visited{
+  color: powderblue;
+}
+@media (min-width: 800px){
+  h1{
+    border-bottom: pink 10px solid;
+    padding: 50px;
+    margin: 0px;
+  }
+  ul{
+    border-right: pink 10px solid;
+    margin: 0px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns:1fr 5fr;
+  }
+}
