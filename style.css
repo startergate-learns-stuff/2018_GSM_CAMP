@@ -1,19 +1,10 @@
 body{
-  background-color:rgb(62,65,78);
-  color:white;
   margin:0px;
   font-family: "Noto Sans KR";
 }
 
 a{
-  color:white;
   text-decoration:none;
-}
-#active{
-  color: blue;
-}
-.visited{
-  color: powderblue;
 }
 @media (min-width: 800px){
   h1{

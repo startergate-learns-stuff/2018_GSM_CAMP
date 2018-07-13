@@ -7,19 +7,14 @@
   </head>
   <body>
     <h1><a href="./">WEB</a></h1>
+    <script src="./script.js"></script>
     <div id="grid">
       <div class="ulCover">
-        <input type="button" id="toggle" value="day" onclick="
+        <input type="button" id="toggle" value="night" onclick="
           if(document.querySelector('#toggle').value == 'day') {
-            document.querySelector('body').style.backgroundColor='white';
-            document.querySelector('body').style.color='black';
-            document.querySelector('a').style.color='black';
-            document.querySelector('#toggle').value='night';
+            color( 'black', 'white', 'night');
           } else {
-            document.querySelector('body').style.backgroundColor='rgb(62,65,78)';
-            document.querySelector('body').style.color='white';
-            document.querySelector('a').style.color='white';
-            document.querySelector('#toggle').value='day';
+            color('white', '#3D414D', 'day');
           }
         ">
         <ul>
@@ -34,5 +29,6 @@
         <a href="https://opentutorials.org" class="link">HTML</a> is <strong>Hyper<u>Text</u> Markup</strong> Language.
       </div>
     </div>
+    <script src="../../jquery/jquery-3.3.1.min.js"></script>
   </body>
 </html>
